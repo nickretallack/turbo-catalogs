@@ -1,0 +1,13 @@
+{
+  "name": "my-turborepo",
+  "description": "A barebones Turborepo example for working with Task Graphs.",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^2.6.1-canary.3"
+  },
+  "packageManager": "yarn@4.11.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
